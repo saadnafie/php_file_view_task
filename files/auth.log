@@ -1,0 +1,458 @@
+Nov 22 00:09:01 NativeCode CRON[10656]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 22 00:09:01 NativeCode CRON[10656]: pam_unix(cron:session): session closed for user root
+Nov 22 00:10:35 NativeCode systemd-logind[870]: Power key pressed.
+Nov 22 00:10:38 NativeCode systemd-logind[870]: System is powering down.
+Nov 22 17:38:55 NativeCode systemd-logind[846]: New seat seat0.
+Nov 22 17:38:55 NativeCode systemd-logind[846]: Watching system buttons on /dev/input/event1 (Power Button)
+Nov 22 17:38:55 NativeCode systemd-logind[846]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Nov 22 17:38:55 NativeCode systemd-logind[846]: Watching system buttons on /dev/input/event8 (Intel HID events)
+Nov 22 17:38:55 NativeCode systemd-logind[846]: Watching system buttons on /dev/input/event9 (Intel HID 5 button array)
+Nov 22 17:38:55 NativeCode systemd-logind[846]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 22 17:39:01 NativeCode CRON[1415]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 22 17:39:01 NativeCode CRON[1415]: pam_unix(cron:session): session closed for user root
+Nov 22 17:39:06 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 22 17:39:06 NativeCode systemd-logind[846]: New session c1 of user gdm.
+Nov 22 17:39:06 NativeCode systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 22 17:39:07 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.51 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 22 17:39:20 NativeCode gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 22 17:39:20 NativeCode gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 22 17:39:20 NativeCode gdm-password]: pam_unix(gdm-password:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 22 17:39:20 NativeCode systemd-logind[846]: New session 3 of user sondos.
+Nov 22 17:39:20 NativeCode systemd: pam_unix(systemd-user:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 22 17:39:20 NativeCode gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 22 17:39:21 NativeCode gnome-keyring-daemon[1909]: The Secret Service was already initialized
+Nov 22 17:39:21 NativeCode gnome-keyring-daemon[1909]: The PKCS#11 component was already initialized
+Nov 22 17:39:21 NativeCode gnome-keyring-daemon[1909]: The SSH agent was already initialized
+Nov 22 17:39:22 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.127 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 22 17:39:24 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 22 17:39:24 NativeCode systemd-logind[846]: Session c1 logged out. Waiting for processes to exit.
+Nov 22 17:39:24 NativeCode systemd-logind[846]: Removed session c1.
+Nov 22 17:39:24 NativeCode polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.51, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 22 17:39:25 NativeCode PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 22 17:39:25 NativeCode PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 22 17:39:34 NativeCode PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 22 17:39:34 NativeCode PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 22 17:39:37 NativeCode PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 22 17:39:37 NativeCode PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 22 17:40:24 NativeCode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 22 17:40:24 NativeCode pkexec[3804]: sondos: Executing command [USER=root] [TTY=unknown] [CWD=/home/sondos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 22 17:42:34 NativeCode smbd: pam_unix(samba:session): session closed for user nobody
+Nov 22 18:09:01 NativeCode CRON[4258]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 22 18:09:01 NativeCode CRON[4258]: pam_unix(cron:session): session closed for user root
+Nov 22 18:17:01 NativeCode CRON[4326]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 22 18:17:01 NativeCode CRON[4326]: pam_unix(cron:session): session closed for user root
+Nov 22 18:30:01 NativeCode CRON[4490]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 22 18:30:01 NativeCode CRON[4490]: pam_unix(cron:session): session closed for user root
+Nov 22 18:39:01 NativeCode CRON[4565]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 22 18:39:01 NativeCode CRON[4565]: pam_unix(cron:session): session closed for user root
+Nov 22 19:09:01 NativeCode CRON[5408]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 22 19:09:01 NativeCode CRON[5408]: pam_unix(cron:session): session closed for user root
+Nov 22 19:17:01 NativeCode CRON[5465]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 22 19:17:01 NativeCode CRON[5465]: pam_unix(cron:session): session closed for user root
+Nov 22 19:30:01 NativeCode CRON[5629]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 22 19:30:01 NativeCode CRON[5629]: pam_unix(cron:session): session closed for user root
+Nov 22 19:38:35 NativeCode systemd-logind[846]: Power key pressed.
+Nov 22 19:38:37 NativeCode systemd-logind[846]: System is powering down.
+Nov 22 22:23:44 NativeCode systemd-logind[899]: New seat seat0.
+Nov 22 22:23:44 NativeCode systemd-logind[899]: Watching system buttons on /dev/input/event1 (Power Button)
+Nov 22 22:23:44 NativeCode systemd-logind[899]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Nov 22 22:23:44 NativeCode systemd-logind[899]: Watching system buttons on /dev/input/event8 (Intel HID events)
+Nov 22 22:23:44 NativeCode systemd-logind[899]: Watching system buttons on /dev/input/event9 (Intel HID 5 button array)
+Nov 22 22:23:44 NativeCode systemd-logind[899]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 22 22:23:55 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 22 22:23:55 NativeCode systemd-logind[899]: New session c1 of user gdm.
+Nov 22 22:23:55 NativeCode systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 22 22:23:56 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.50 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 22 22:24:07 NativeCode gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 22 22:24:07 NativeCode gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 22 22:24:07 NativeCode gdm-password]: pam_unix(gdm-password:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 22 22:24:07 NativeCode systemd-logind[899]: New session 2 of user sondos.
+Nov 22 22:24:07 NativeCode systemd: pam_unix(systemd-user:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 22 22:24:07 NativeCode gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 22 22:24:08 NativeCode gnome-keyring-daemon[1904]: The Secret Service was already initialized
+Nov 22 22:24:08 NativeCode gnome-keyring-daemon[1904]: The PKCS#11 component was already initialized
+Nov 22 22:24:08 NativeCode gnome-keyring-daemon[1904]: The SSH agent was already initialized
+Nov 22 22:24:09 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.128 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 22 22:24:11 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 22 22:24:11 NativeCode systemd-logind[899]: Session c1 logged out. Waiting for processes to exit.
+Nov 22 22:24:11 NativeCode systemd-logind[899]: Removed session c1.
+Nov 22 22:24:11 NativeCode polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.50, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 22 22:24:11 NativeCode PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 22 22:24:11 NativeCode PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 22 22:24:15 NativeCode gnome-keyring-daemon[1904]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 22 22:24:31 NativeCode gnome-keyring-daemon[1904]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 22 22:25:14 NativeCode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 22 22:25:14 NativeCode pkexec[4767]: sondos: Executing command [USER=root] [TTY=unknown] [CWD=/home/sondos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 22 22:28:12 NativeCode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 22 22:28:12 NativeCode pkexec[5780]: sondos: Executing command [USER=root] [TTY=unknown] [CWD=/home/sondos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 22 22:30:01 NativeCode CRON[6051]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 22 22:30:01 NativeCode CRON[6051]: pam_unix(cron:session): session closed for user root
+Nov 22 22:39:01 NativeCode CRON[7511]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 22 22:39:01 NativeCode CRON[7511]: pam_unix(cron:session): session closed for user root
+Nov 22 23:09:01 NativeCode CRON[10324]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 22 23:09:01 NativeCode CRON[10324]: pam_unix(cron:session): session closed for user root
+Nov 22 23:17:01 NativeCode CRON[10796]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 22 23:17:01 NativeCode CRON[10796]: pam_unix(cron:session): session closed for user root
+Nov 22 23:30:01 NativeCode CRON[11618]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 22 23:30:01 NativeCode CRON[11618]: pam_unix(cron:session): session closed for user root
+Nov 22 23:39:01 NativeCode CRON[12223]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 22 23:39:01 NativeCode CRON[12223]: pam_unix(cron:session): session closed for user root
+Nov 23 00:09:01 NativeCode CRON[14359]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 00:09:01 NativeCode CRON[14359]: pam_unix(cron:session): session closed for user root
+Nov 23 00:17:01 NativeCode CRON[14755]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 00:17:01 NativeCode CRON[14755]: pam_unix(cron:session): session closed for user root
+Nov 23 00:39:01 NativeCode CRON[16224]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 00:39:01 NativeCode CRON[16224]: pam_unix(cron:session): session closed for user root
+Nov 23 01:09:01 NativeCode CRON[17855]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 01:09:01 NativeCode CRON[17855]: pam_unix(cron:session): session closed for user root
+Nov 23 01:17:01 NativeCode CRON[18188]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 01:17:01 NativeCode CRON[18188]: pam_unix(cron:session): session closed for user root
+Nov 23 01:27:24 NativeCode gdm-password]: gkr-pam: unlocked login keyring
+Nov 23 01:27:32 NativeCode systemd-logind[899]: System is powering down.
+Nov 23 13:16:04 NativeCode systemd-logind[827]: Watching system buttons on /dev/input/event1 (Power Button)
+Nov 23 13:16:04 NativeCode systemd-logind[827]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Nov 23 13:16:04 NativeCode systemd-logind[827]: Watching system buttons on /dev/input/event8 (Intel HID events)
+Nov 23 13:16:04 NativeCode systemd-logind[827]: Watching system buttons on /dev/input/event9 (Intel HID 5 button array)
+Nov 23 13:16:04 NativeCode systemd-logind[827]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 23 13:16:04 NativeCode systemd-logind[827]: New seat seat0.
+Nov 23 13:16:15 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 23 13:16:15 NativeCode systemd-logind[827]: New session c1 of user gdm.
+Nov 23 13:16:15 NativeCode systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 23 13:16:16 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.50 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 23 13:16:35 NativeCode gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 23 13:16:35 NativeCode gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 23 13:16:35 NativeCode gdm-password]: pam_unix(gdm-password:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 23 13:16:35 NativeCode systemd-logind[827]: New session 2 of user sondos.
+Nov 23 13:16:35 NativeCode systemd: pam_unix(systemd-user:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 23 13:16:35 NativeCode gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 23 13:16:36 NativeCode gnome-keyring-daemon[1879]: The Secret Service was already initialized
+Nov 23 13:16:36 NativeCode gnome-keyring-daemon[1879]: The PKCS#11 component was already initialized
+Nov 23 13:16:36 NativeCode gnome-keyring-daemon[1879]: The SSH agent was already initialized
+Nov 23 13:16:37 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.128 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 23 13:16:39 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 23 13:16:39 NativeCode systemd-logind[827]: Session c1 logged out. Waiting for processes to exit.
+Nov 23 13:16:39 NativeCode systemd-logind[827]: Removed session c1.
+Nov 23 13:16:39 NativeCode polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.50, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 23 13:16:40 NativeCode PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 23 13:16:40 NativeCode PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 23 13:16:43 NativeCode gnome-keyring-daemon[1879]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 23 13:16:52 NativeCode PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 23 13:16:52 NativeCode PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 23 13:16:54 NativeCode PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 23 13:16:54 NativeCode PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 23 13:17:00 NativeCode CRON[4507]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 13:17:00 NativeCode CRON[4507]: pam_unix(cron:session): session closed for user root
+Nov 23 13:17:42 NativeCode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 23 13:17:42 NativeCode pkexec[4756]: sondos: Executing command [USER=root] [TTY=unknown] [CWD=/home/sondos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 23 13:30:01 NativeCode CRON[5464]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 13:30:01 NativeCode CRON[5464]: pam_unix(cron:session): session closed for user root
+Nov 23 13:39:01 NativeCode CRON[5914]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 13:39:01 NativeCode CRON[5914]: pam_unix(cron:session): session closed for user root
+Nov 23 14:09:01 NativeCode CRON[7381]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 14:09:01 NativeCode CRON[7381]: pam_unix(cron:session): session closed for user root
+Nov 23 14:17:01 NativeCode CRON[7796]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 14:17:01 NativeCode CRON[7796]: pam_unix(cron:session): session closed for user root
+Nov 23 14:30:01 NativeCode CRON[8226]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 14:30:01 NativeCode CRON[8226]: pam_unix(cron:session): session closed for user root
+Nov 23 14:39:01 NativeCode CRON[8657]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 14:39:01 NativeCode CRON[8657]: pam_unix(cron:session): session closed for user root
+Nov 23 16:11:09 NativeCode systemd-logind[919]: New seat seat0.
+Nov 23 16:11:09 NativeCode systemd-logind[919]: Watching system buttons on /dev/input/event1 (Power Button)
+Nov 23 16:11:09 NativeCode systemd-logind[919]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Nov 23 16:11:09 NativeCode systemd-logind[919]: Watching system buttons on /dev/input/event8 (Intel HID events)
+Nov 23 16:11:09 NativeCode systemd-logind[919]: Watching system buttons on /dev/input/event9 (Intel HID 5 button array)
+Nov 23 16:11:09 NativeCode systemd-logind[919]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 23 16:11:19 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 23 16:11:19 NativeCode systemd-logind[919]: New session c1 of user gdm.
+Nov 23 16:11:19 NativeCode systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 23 16:11:20 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.52 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 23 16:11:34 NativeCode gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 23 16:11:34 NativeCode gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 23 16:11:34 NativeCode gdm-password]: pam_unix(gdm-password:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 23 16:11:34 NativeCode systemd-logind[919]: New session 2 of user sondos.
+Nov 23 16:11:34 NativeCode systemd: pam_unix(systemd-user:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 23 16:11:34 NativeCode gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 23 16:11:36 NativeCode gnome-keyring-daemon[1893]: The Secret Service was already initialized
+Nov 23 16:11:36 NativeCode gnome-keyring-daemon[1893]: The PKCS#11 component was already initialized
+Nov 23 16:11:36 NativeCode gnome-keyring-daemon[1893]: The SSH agent was already initialized
+Nov 23 16:11:36 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.130 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 23 16:11:38 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 23 16:11:38 NativeCode systemd-logind[919]: Session c1 logged out. Waiting for processes to exit.
+Nov 23 16:11:38 NativeCode systemd-logind[919]: Removed session c1.
+Nov 23 16:11:38 NativeCode polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.52, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 23 16:11:39 NativeCode PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 23 16:11:39 NativeCode PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 23 16:12:01 NativeCode gnome-keyring-daemon[1893]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 23 16:12:41 NativeCode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 23 16:12:41 NativeCode pkexec[3948]: sondos: Executing command [USER=root] [TTY=unknown] [CWD=/home/sondos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 23 16:17:01 NativeCode CRON[4202]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 16:17:01 NativeCode CRON[4202]: pam_unix(cron:session): session closed for user root
+Nov 23 16:30:01 NativeCode CRON[4734]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 16:30:01 NativeCode CRON[4734]: pam_unix(cron:session): session closed for user root
+Nov 23 16:39:01 NativeCode CRON[4993]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 16:39:01 NativeCode CRON[4993]: pam_unix(cron:session): session closed for user root
+Nov 23 17:09:01 NativeCode CRON[5920]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 17:09:01 NativeCode CRON[5920]: pam_unix(cron:session): session closed for user root
+Nov 23 17:17:01 NativeCode CRON[6216]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 17:17:01 NativeCode CRON[6216]: pam_unix(cron:session): session closed for user root
+Nov 23 17:22:06 NativeCode smbd: pam_unix(samba:session): session closed for user nobody
+Nov 23 17:30:01 NativeCode CRON[6758]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 17:30:01 NativeCode CRON[6758]: pam_unix(cron:session): session closed for user root
+Nov 23 17:39:01 NativeCode CRON[6827]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 17:39:01 NativeCode CRON[6827]: pam_unix(cron:session): session closed for user root
+Nov 23 18:09:01 NativeCode CRON[6976]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 18:09:01 NativeCode CRON[6976]: pam_unix(cron:session): session closed for user root
+Nov 23 18:17:01 NativeCode CRON[6994]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 18:17:01 NativeCode CRON[6994]: pam_unix(cron:session): session closed for user root
+Nov 23 18:29:03 NativeCode systemd-logind[919]: Operation 'sleep' finished.
+Nov 23 18:29:05 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 23 18:29:05 NativeCode systemd-logind[919]: New session c2 of user gdm.
+Nov 23 18:29:05 NativeCode systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 23 18:29:06 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.205 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 23 18:29:10 NativeCode systemd-logind[919]: Power key pressed.
+Nov 23 18:29:12 NativeCode systemd-logind[919]: System is powering down.
+Nov 23 19:45:00 NativeCode systemd-logind[899]: New seat seat0.
+Nov 23 19:45:00 NativeCode systemd-logind[899]: Watching system buttons on /dev/input/event1 (Power Button)
+Nov 23 19:45:00 NativeCode systemd-logind[899]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Nov 23 19:45:00 NativeCode systemd-logind[899]: Watching system buttons on /dev/input/event8 (Intel HID events)
+Nov 23 19:45:00 NativeCode systemd-logind[899]: Watching system buttons on /dev/input/event9 (Intel HID 5 button array)
+Nov 23 19:45:00 NativeCode systemd-logind[899]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 23 19:45:10 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 23 19:45:10 NativeCode systemd-logind[899]: New session c1 of user gdm.
+Nov 23 19:45:10 NativeCode systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 23 19:45:11 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.51 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 23 19:45:20 NativeCode gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 23 19:45:20 NativeCode gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 23 19:45:20 NativeCode gdm-password]: pam_unix(gdm-password:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 23 19:45:20 NativeCode systemd-logind[899]: New session 2 of user sondos.
+Nov 23 19:45:20 NativeCode systemd: pam_unix(systemd-user:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 23 19:45:20 NativeCode gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 23 19:45:21 NativeCode gnome-keyring-daemon[1921]: The Secret Service was already initialized
+Nov 23 19:45:21 NativeCode gnome-keyring-daemon[1921]: The PKCS#11 component was already initialized
+Nov 23 19:45:21 NativeCode gnome-keyring-daemon[1921]: The SSH agent was already initialized
+Nov 23 19:45:22 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.127 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 23 19:45:24 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 23 19:45:24 NativeCode systemd-logind[899]: Session c1 logged out. Waiting for processes to exit.
+Nov 23 19:45:24 NativeCode systemd-logind[899]: Removed session c1.
+Nov 23 19:45:24 NativeCode polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.51, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 23 19:45:25 NativeCode PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 23 19:45:25 NativeCode PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 23 19:45:31 NativeCode gnome-keyring-daemon[1921]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 23 19:46:27 NativeCode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 23 19:46:27 NativeCode pkexec[4344]: sondos: Executing command [USER=root] [TTY=unknown] [CWD=/home/sondos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 23 20:09:01 NativeCode CRON[5231]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 20:09:01 NativeCode CRON[5231]: pam_unix(cron:session): session closed for user root
+Nov 23 20:17:01 NativeCode CRON[5476]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 23 20:17:01 NativeCode CRON[5476]: pam_unix(cron:session): session closed for user root
+Nov 23 20:23:02 NativeCode systemd-logind[899]: System is powering down.
+Nov 25 18:41:59 NativeCode systemd-logind[922]: New seat seat0.
+Nov 25 18:41:59 NativeCode systemd-logind[922]: Watching system buttons on /dev/input/event1 (Power Button)
+Nov 25 18:41:59 NativeCode systemd-logind[922]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Nov 25 18:41:59 NativeCode systemd-logind[922]: Watching system buttons on /dev/input/event8 (Intel HID events)
+Nov 25 18:41:59 NativeCode systemd-logind[922]: Watching system buttons on /dev/input/event9 (Intel HID 5 button array)
+Nov 25 18:41:59 NativeCode systemd-logind[922]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 25 18:42:09 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 25 18:42:09 NativeCode systemd-logind[922]: New session c1 of user gdm.
+Nov 25 18:42:09 NativeCode systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 25 18:42:10 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.51 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 25 18:42:33 NativeCode gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 25 18:42:33 NativeCode gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 25 18:42:33 NativeCode gdm-password]: pam_unix(gdm-password:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 25 18:42:33 NativeCode systemd-logind[922]: New session 2 of user sondos.
+Nov 25 18:42:33 NativeCode systemd: pam_unix(systemd-user:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 25 18:42:33 NativeCode gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 25 18:42:35 NativeCode gnome-keyring-daemon[1872]: The Secret Service was already initialized
+Nov 25 18:42:35 NativeCode gnome-keyring-daemon[1872]: The PKCS#11 component was already initialized
+Nov 25 18:42:35 NativeCode gnome-keyring-daemon[1872]: The SSH agent was already initialized
+Nov 25 18:42:35 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.129 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 25 18:42:37 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 25 18:42:37 NativeCode systemd-logind[922]: Session c1 logged out. Waiting for processes to exit.
+Nov 25 18:42:37 NativeCode systemd-logind[922]: Removed session c1.
+Nov 25 18:42:37 NativeCode polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.51, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 25 18:42:38 NativeCode PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 25 18:42:38 NativeCode PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 25 18:42:49 NativeCode PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 25 18:42:49 NativeCode PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 25 18:42:52 NativeCode PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 25 18:42:52 NativeCode PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 25 18:43:33 NativeCode gnome-keyring-daemon[1872]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 25 18:43:41 NativeCode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 25 18:43:41 NativeCode pkexec[4336]: sondos: Executing command [USER=root] [TTY=unknown] [CWD=/home/sondos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 25 19:09:01 NativeCode CRON[6407]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 25 19:09:01 NativeCode CRON[6407]: pam_unix(cron:session): session closed for user root
+Nov 25 19:17:01 NativeCode CRON[6660]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 25 19:17:01 NativeCode CRON[6660]: pam_unix(cron:session): session closed for user root
+Nov 25 19:30:01 NativeCode CRON[7092]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 25 19:30:01 NativeCode CRON[7092]: pam_unix(cron:session): session closed for user root
+Nov 25 19:39:01 NativeCode CRON[7462]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 25 19:39:01 NativeCode CRON[7462]: pam_unix(cron:session): session closed for user root
+Nov 25 20:09:01 NativeCode CRON[8714]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 25 20:09:01 NativeCode CRON[8714]: pam_unix(cron:session): session closed for user root
+Nov 25 20:17:01 NativeCode CRON[8905]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 25 20:17:01 NativeCode CRON[8905]: pam_unix(cron:session): session closed for user root
+Nov 25 20:30:01 NativeCode CRON[9360]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 25 20:30:01 NativeCode CRON[9360]: pam_unix(cron:session): session closed for user root
+Nov 25 20:39:01 NativeCode CRON[9759]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 25 20:39:01 NativeCode CRON[9759]: pam_unix(cron:session): session closed for user root
+Nov 25 21:09:01 NativeCode CRON[10975]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 25 21:09:01 NativeCode CRON[10975]: pam_unix(cron:session): session closed for user root
+Nov 25 21:17:01 NativeCode CRON[11160]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 25 21:17:01 NativeCode CRON[11160]: pam_unix(cron:session): session closed for user root
+Nov 25 21:30:01 NativeCode CRON[11674]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 25 21:30:01 NativeCode CRON[11674]: pam_unix(cron:session): session closed for user root
+Nov 25 21:39:01 NativeCode CRON[12040]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 25 21:39:01 NativeCode CRON[12040]: pam_unix(cron:session): session closed for user root
+Nov 25 22:09:01 NativeCode CRON[13264]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 25 22:09:01 NativeCode CRON[13264]: pam_unix(cron:session): session closed for user root
+Nov 25 22:17:01 NativeCode CRON[13560]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 25 22:17:01 NativeCode CRON[13560]: pam_unix(cron:session): session closed for user root
+Nov 25 22:30:01 NativeCode CRON[14265]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 25 22:30:01 NativeCode CRON[14265]: pam_unix(cron:session): session closed for user root
+Nov 25 22:38:06 NativeCode gdm-password]: gkr-pam: unlocked login keyring
+Nov 25 22:38:08 NativeCode systemd-logind[922]: Power key pressed.
+Nov 25 22:38:10 NativeCode systemd-logind[922]: System is powering down.
+Nov 26 01:02:09 NativeCode systemd-logind[833]: New seat seat0.
+Nov 26 01:02:09 NativeCode systemd-logind[833]: Watching system buttons on /dev/input/event1 (Power Button)
+Nov 26 01:02:09 NativeCode systemd-logind[833]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Nov 26 01:02:09 NativeCode systemd-logind[833]: Watching system buttons on /dev/input/event6 (Intel HID events)
+Nov 26 01:02:09 NativeCode systemd-logind[833]: Watching system buttons on /dev/input/event7 (Intel HID 5 button array)
+Nov 26 01:02:09 NativeCode systemd-logind[833]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 26 01:02:20 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 26 01:02:20 NativeCode systemd-logind[833]: New session c1 of user gdm.
+Nov 26 01:02:20 NativeCode systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 26 01:02:21 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.51 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 26 01:02:28 NativeCode gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 26 01:02:28 NativeCode gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 26 01:02:28 NativeCode gdm-password]: pam_unix(gdm-password:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 26 01:02:28 NativeCode systemd-logind[833]: New session 2 of user sondos.
+Nov 26 01:02:28 NativeCode systemd: pam_unix(systemd-user:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 26 01:02:29 NativeCode gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 26 01:02:30 NativeCode gnome-keyring-daemon[1872]: The Secret Service was already initialized
+Nov 26 01:02:30 NativeCode gnome-keyring-daemon[1872]: The PKCS#11 component was already initialized
+Nov 26 01:02:30 NativeCode gnome-keyring-daemon[1872]: The SSH agent was already initialized
+Nov 26 01:02:30 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.127 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 26 01:02:32 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 26 01:02:32 NativeCode systemd-logind[833]: Session c1 logged out. Waiting for processes to exit.
+Nov 26 01:02:32 NativeCode systemd-logind[833]: Removed session c1.
+Nov 26 01:02:32 NativeCode polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.51, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 26 01:02:33 NativeCode PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 26 01:02:33 NativeCode PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 26 01:02:43 NativeCode gnome-keyring-daemon[1872]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 26 01:03:34 NativeCode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 26 01:03:34 NativeCode pkexec[4015]: sondos: Executing command [USER=root] [TTY=unknown] [CWD=/home/sondos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 26 01:09:01 NativeCode CRON[4403]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 01:09:01 NativeCode CRON[4403]: pam_unix(cron:session): session closed for user root
+Nov 26 01:17:01 NativeCode CRON[4671]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 01:17:01 NativeCode CRON[4671]: pam_unix(cron:session): session closed for user root
+Nov 26 01:39:01 NativeCode CRON[5924]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 01:39:01 NativeCode CRON[5924]: pam_unix(cron:session): session closed for user root
+Nov 26 02:09:01 NativeCode CRON[7683]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 02:09:01 NativeCode CRON[7683]: pam_unix(cron:session): session closed for user root
+Nov 26 02:17:01 NativeCode CRON[8127]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 02:17:01 NativeCode CRON[8127]: pam_unix(cron:session): session closed for user root
+Nov 26 02:39:01 NativeCode CRON[9569]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 02:39:01 NativeCode CRON[9569]: pam_unix(cron:session): session closed for user root
+Nov 26 02:57:39 NativeCode systemd-logind[833]: Power key pressed.
+Nov 26 02:57:48 NativeCode systemd-logind[833]: System is powering down.
+Nov 26 11:28:40 NativeCode systemd-logind[863]: New seat seat0.
+Nov 26 11:28:40 NativeCode systemd-logind[863]: Watching system buttons on /dev/input/event1 (Power Button)
+Nov 26 11:28:40 NativeCode systemd-logind[863]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Nov 26 11:28:40 NativeCode systemd-logind[863]: Watching system buttons on /dev/input/event6 (Intel HID events)
+Nov 26 11:28:40 NativeCode systemd-logind[863]: Watching system buttons on /dev/input/event7 (Intel HID 5 button array)
+Nov 26 11:28:40 NativeCode systemd-logind[863]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 26 11:28:50 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 26 11:28:50 NativeCode systemd-logind[863]: New session c1 of user gdm.
+Nov 26 11:28:50 NativeCode systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 26 11:28:51 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.52 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 26 11:29:16 NativeCode gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 26 11:29:16 NativeCode gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 26 11:29:16 NativeCode gdm-password]: pam_unix(gdm-password:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 26 11:29:16 NativeCode systemd-logind[863]: New session 2 of user sondos.
+Nov 26 11:29:16 NativeCode systemd: pam_unix(systemd-user:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 26 11:29:16 NativeCode gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 26 11:29:17 NativeCode gnome-keyring-daemon[1871]: The Secret Service was already initialized
+Nov 26 11:29:17 NativeCode gnome-keyring-daemon[1871]: The PKCS#11 component was already initialized
+Nov 26 11:29:17 NativeCode gnome-keyring-daemon[1871]: The SSH agent was already initialized
+Nov 26 11:29:17 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.129 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 26 11:29:19 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 26 11:29:19 NativeCode systemd-logind[863]: Session c1 logged out. Waiting for processes to exit.
+Nov 26 11:29:19 NativeCode systemd-logind[863]: Removed session c1.
+Nov 26 11:29:19 NativeCode polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.52, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 26 11:29:20 NativeCode PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 26 11:29:20 NativeCode PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 26 11:29:26 NativeCode PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 26 11:29:26 NativeCode PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 26 11:29:27 NativeCode PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 26 11:29:27 NativeCode PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 26 11:29:32 NativeCode gnome-keyring-daemon[1871]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 26 11:30:01 NativeCode CRON[4187]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 11:30:01 NativeCode CRON[4187]: pam_unix(cron:session): session closed for user root
+Nov 26 11:30:21 NativeCode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 26 11:30:21 NativeCode pkexec[4320]: sondos: Executing command [USER=root] [TTY=unknown] [CWD=/home/sondos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 26 11:39:01 NativeCode CRON[23720]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 11:39:01 NativeCode CRON[23720]: pam_unix(cron:session): session closed for user root
+Nov 26 11:39:22 NativeCode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 26 11:39:22 NativeCode pkexec[28368]: sondos: Executing command [USER=root] [TTY=unknown] [CWD=/home/sondos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 26 11:42:20 NativeCode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 26 11:42:20 NativeCode pkexec[29721]: sondos: Executing command [USER=root] [TTY=unknown] [CWD=/home/sondos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 26 11:51:37 NativeCode sudo:   sondos : TTY=pts/0 ; PWD=/home/sondos ; USER=root ; COMMAND=/usr/sbin/service apache2 stop
+Nov 26 11:51:37 NativeCode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 26 11:51:38 NativeCode sudo: pam_unix(sudo:session): session closed for user root
+Nov 26 11:52:03 NativeCode sudo:   sondos : TTY=pts/0 ; PWD=/home/sondos ; USER=root ; COMMAND=/opt/lampp/manager-linux-x64.run
+Nov 26 11:52:03 NativeCode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 26 11:53:04 NativeCode polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:sondos to gain TEMPORARY authorization for action org.gtk.vfs.file-operations-helper for unix-process:31012:146252 [/bin/sh -c pkexec /usr/libexec/gvfsd-admin "$@" --address $DBUS_SESSION_BUS_ADDRESS --dir $XDG_RUNTIME_DIR gvfsd-admin --spawner :1.2 /org/gtk/gvfs/exec_spaw/4] (owned by unix-user:sondos)
+Nov 26 11:53:04 NativeCode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 26 11:53:04 NativeCode pkexec[31013]: sondos: Executing command [USER=root] [TTY=unknown] [CWD=/home/sondos] [COMMAND=/usr/libexec/gvfsd-admin --spawner :1.2 /org/gtk/gvfs/exec_spaw/4 --address unix:path=/run/user/1000/bus --dir /run/user/1000]
+Nov 26 11:53:10 NativeCode polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:sondos to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:30120:118827 [/usr/bin/nautilus --gapplication-service] (owned by unix-user:sondos)
+Nov 26 12:09:01 NativeCode CRON[32542]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 12:09:02 NativeCode CRON[32542]: pam_unix(cron:session): session closed for user root
+Nov 26 12:17:02 NativeCode CRON[33288]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 12:17:02 NativeCode CRON[33288]: pam_unix(cron:session): session closed for user root
+Nov 26 12:17:13 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 26 12:17:13 NativeCode systemd-logind[863]: New session c2 of user gdm.
+Nov 26 12:17:13 NativeCode systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 26 12:17:13 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.263 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 26 12:17:14 NativeCode systemd-logind[863]: Power key pressed.
+Nov 26 12:17:16 NativeCode systemd-logind[863]: System is powering down.
+Nov 26 12:17:16 NativeCode sudo: pam_unix(sudo:session): session closed for user root
+Nov 26 13:54:21 NativeCode systemd-logind[868]: New seat seat0.
+Nov 26 13:54:21 NativeCode systemd-logind[868]: Watching system buttons on /dev/input/event1 (Power Button)
+Nov 26 13:54:21 NativeCode systemd-logind[868]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Nov 26 13:54:21 NativeCode systemd-logind[868]: Watching system buttons on /dev/input/event6 (Intel HID events)
+Nov 26 13:54:21 NativeCode systemd-logind[868]: Watching system buttons on /dev/input/event7 (Intel HID 5 button array)
+Nov 26 13:54:21 NativeCode systemd-logind[868]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 26 13:54:32 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 26 13:54:32 NativeCode systemd-logind[868]: New session c1 of user gdm.
+Nov 26 13:54:32 NativeCode systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=126) by (uid=0)
+Nov 26 13:54:33 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.52 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 26 13:57:02 NativeCode gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 26 13:57:02 NativeCode gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 26 13:57:02 NativeCode gdm-password]: pam_unix(gdm-password:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 26 13:57:02 NativeCode systemd-logind[868]: New session 2 of user sondos.
+Nov 26 13:57:02 NativeCode systemd: pam_unix(systemd-user:session): session opened for user sondos(uid=1000) by (uid=0)
+Nov 26 13:57:02 NativeCode gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 26 13:57:03 NativeCode gnome-keyring-daemon[1880]: The Secret Service was already initialized
+Nov 26 13:57:03 NativeCode gnome-keyring-daemon[1880]: The PKCS#11 component was already initialized
+Nov 26 13:57:03 NativeCode gnome-keyring-daemon[1880]: The SSH agent was already initialized
+Nov 26 13:57:03 NativeCode polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.129 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 26 13:57:05 NativeCode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 26 13:57:05 NativeCode systemd-logind[868]: Session c1 logged out. Waiting for processes to exit.
+Nov 26 13:57:05 NativeCode systemd-logind[868]: Removed session c1.
+Nov 26 13:57:05 NativeCode polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.52, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 26 13:57:06 NativeCode PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 26 13:57:06 NativeCode PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 26 13:57:22 NativeCode sudo:   sondos : TTY=pts/0 ; PWD=/home/sondos ; USER=root ; COMMAND=/usr/sbin/service apache2 stop
+Nov 26 13:57:22 NativeCode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 26 13:57:22 NativeCode sudo: pam_unix(sudo:session): session closed for user root
+Nov 26 13:57:42 NativeCode sudo:   sondos : TTY=pts/0 ; PWD=/home/sondos ; USER=root ; COMMAND=/opt/lampp/manager-linux-x64.run
+Nov 26 13:57:42 NativeCode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 26 13:58:07 NativeCode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 26 13:58:07 NativeCode pkexec[3906]: sondos: Executing command [USER=root] [TTY=unknown] [CWD=/home/sondos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 26 13:59:22 NativeCode polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:sondos to gain TEMPORARY authorization for action org.gtk.vfs.file-operations-helper for unix-process:4048:29991 [/bin/sh -c pkexec /usr/libexec/gvfsd-admin "$@" --address $DBUS_SESSION_BUS_ADDRESS --dir $XDG_RUNTIME_DIR gvfsd-admin --spawner :1.2 /org/gtk/gvfs/exec_spaw/4] (owned by unix-user:sondos)
+Nov 26 13:59:22 NativeCode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 26 13:59:22 NativeCode pkexec[4049]: sondos: Executing command [USER=root] [TTY=unknown] [CWD=/home/sondos] [COMMAND=/usr/libexec/gvfsd-admin --spawner :1.2 /org/gtk/gvfs/exec_spaw/4 --address unix:path=/run/user/1000/bus --dir /run/user/1000]
+Nov 26 13:59:27 NativeCode polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:sondos to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:3730:21401 [/usr/bin/nautilus --gapplication-service] (owned by unix-user:sondos)
+Nov 26 14:01:43 NativeCode gnome-keyring-daemon[1880]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 26 14:03:13 NativeCode polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:sondos to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:5434:52816 [/usr/bin/gedit --gapplication-service] (owned by unix-user:sondos)
+Nov 26 14:03:47 NativeCode polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:sondos to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:5569:56409 [/usr/bin/gedit --gapplication-service] (owned by unix-user:sondos)
+Nov 26 14:04:39 NativeCode polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:sondos to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:3730:21401 [/usr/bin/nautilus --gapplication-service] (owned by unix-user:sondos)
